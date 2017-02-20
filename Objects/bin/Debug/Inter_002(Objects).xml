@@ -1,0 +1,491 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Inter_002(Objects)</name>
+    </assembly>
+    <members>
+        <member name="T:IIS.Inter_002.Товар">
+            <summary>
+            Товар.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.Товар.КодТовара">
+            <summary>
+            КодТовара.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.Товар.Название">
+            <summary>
+            Название.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.Товар.Количество">
+            <summary>
+            Количество.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.Товар.СумарнаяСтоимость">
+            <summary>
+            СумарнаяСтоимость.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.Товар.Склад">
+            <summary>
+            Товар.
+            </summary>
+        </member>
+        <member name="T:IIS.Inter_002.Товар.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.Товар.Views.ТоварE">
+            <summary>
+            "ТоварE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.Товар.Views.ТоварL">
+            <summary>
+            "ТоварL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Inter_002.СтрокаПоставки">
+            <summary>
+            Строка поставки.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.СтрокаПоставки.Количество">
+            <summary>
+            Количество.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.СтрокаПоставки.СуммарнаяСтоимость">
+            <summary>
+            СуммарнаяСтоимость.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.СтрокаПоставки.Товар">
+            <summary>
+            Строка поставки.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.СтрокаПоставки.Поставка">
+            <summary>
+            мастеровая ссылка на шапку IIS.Inter_002.Поставка.
+            </summary>
+        </member>
+        <member name="T:IIS.Inter_002.СтрокаПоставки.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.СтрокаПоставки.Views.СтрокаПоставкиE">
+            <summary>
+            "СтрокаПоставкиE" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Inter_002.DetailArrayOfСтрокаПоставки">
+            <summary>
+            Detail array of СтрокаПоставки.
+            </summary>
+        </member>
+        <member name="M:IIS.Inter_002.DetailArrayOfСтрокаПоставки.#ctor(IIS.Inter_002.Поставка)">
+            <summary>
+            Construct detail array.
+            </summary>
+            <summary>
+            Returns object with type СтрокаПоставки by index.
+            </summary>
+            <summary>
+            Adds object with type СтрокаПоставки.
+            </summary>
+        </member>
+        <member name="T:IIS.Inter_002.СостояниеЗаказа">
+            <summary>
+            Состояние заказа.
+            </summary>
+        </member>
+        <member name="F:IIS.Inter_002.СостояниеЗаказа.Оплачен">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:IIS.Inter_002.СостояниеЗаказа.Отменен">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:IIS.Inter_002.Поставка">
+            <summary>
+            Поставка.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.Поставка.КодПоставки">
+            <summary>
+            КодПоставки.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.Поставка.Дата">
+            <summary>
+            Дата.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.Поставка.СтрокаПоставки">
+            <summary>
+            Поставка.
+            </summary>
+        </member>
+        <member name="T:IIS.Inter_002.Поставка.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.Поставка.Views.ПоставкаE">
+            <summary>
+            "ПоставкаE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.Поставка.Views.ПоставкаL">
+            <summary>
+            "ПоставкаL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Inter_002.Отчет">
+            <summary>
+            Отчет.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.Отчет.КодОтчета">
+            <summary>
+            КодОтчета.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.Отчет.Дата">
+            <summary>
+            Дата.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.Отчет.СтрокаОтчета">
+            <summary>
+            Отчет.
+            </summary>
+        </member>
+        <member name="T:IIS.Inter_002.Отчет.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.Отчет.Views.ОтчетE">
+            <summary>
+            "ОтчетE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.Отчет.Views.ОтчетL">
+            <summary>
+            "ОтчетL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Inter_002.СостояниеПосылки">
+            <summary>
+            Состояние посылки.
+            </summary>
+        </member>
+        <member name="F:IIS.Inter_002.СостояниеПосылки.Отправлена">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:IIS.Inter_002.СостояниеПосылки.Неотправлена">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:IIS.Inter_002.Склад">
+            <summary>
+            Склад.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.Склад.КодСклада">
+            <summary>
+            КодСклада.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.Склад.Адрес">
+            <summary>
+            Адрес.
+            </summary>
+        </member>
+        <member name="T:IIS.Inter_002.Склад.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.Склад.Views.СкладE">
+            <summary>
+            "СкладE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.Склад.Views.СкладL">
+            <summary>
+            "СкладL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Inter_002.СтрокаЗаказа">
+            <summary>
+            Строка заказа.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.СтрокаЗаказа.Количество">
+            <summary>
+            Количество.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.СтрокаЗаказа.Цена">
+            <summary>
+            Цена.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.СтрокаЗаказа.Товар">
+            <summary>
+            Строка заказа.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.СтрокаЗаказа.Заказ">
+            <summary>
+            мастеровая ссылка на шапку IIS.Inter_002.Заказ.
+            </summary>
+        </member>
+        <member name="T:IIS.Inter_002.СтрокаЗаказа.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.СтрокаЗаказа.Views.СтрокаЗаказаE">
+            <summary>
+            "СтрокаЗаказаE" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Inter_002.DetailArrayOfСтрокаЗаказа">
+            <summary>
+            Detail array of СтрокаЗаказа.
+            </summary>
+        </member>
+        <member name="M:IIS.Inter_002.DetailArrayOfСтрокаЗаказа.#ctor(IIS.Inter_002.Заказ)">
+            <summary>
+            Construct detail array.
+            </summary>
+            <summary>
+            Returns object with type СтрокаЗаказа by index.
+            </summary>
+            <summary>
+            Adds object with type СтрокаЗаказа.
+            </summary>
+        </member>
+        <member name="T:IIS.Inter_002.Клиент">
+            <summary>
+            Клиент.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.Клиент.КодКлиента">
+            <summary>
+            КодКлиента.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.Клиент.ФИО">
+            <summary>
+            ФИО.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.Клиент.Город">
+            <summary>
+            Город.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.Клиент.Улица">
+            <summary>
+            Улица.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.Клиент.Дом">
+            <summary>
+            Дом.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.Клиент.Квартира">
+            <summary>
+            Квартира.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.Клиент.ПочтовыйИндекс">
+            <summary>
+            ПочтовыйИндекс.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.Клиент.Телефон">
+            <summary>
+            Телефон.
+            </summary>
+        </member>
+        <member name="T:IIS.Inter_002.Клиент.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.Клиент.Views.КлиентE">
+            <summary>
+            "КлиентE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.Клиент.Views.КлиентL">
+            <summary>
+            "КлиентL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Inter_002.Заказ">
+            <summary>
+            Заказ.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.Заказ.КодЗаказа">
+            <summary>
+            КодЗаказа.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.Заказ.Статус">
+            <summary>
+            Статус.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.Заказ.Дата">
+            <summary>
+            Дата.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.Заказ.Сумма">
+            <summary>
+            Сумма.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.Заказ.Клиент">
+            <summary>
+            Заказ.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.Заказ.СтрокаЗаказа">
+            <summary>
+            Заказ.
+            </summary>
+        </member>
+        <member name="T:IIS.Inter_002.Заказ.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.Заказ.Views.ЗаказE">
+            <summary>
+            "ЗаказE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.Заказ.Views.ЗаказL">
+            <summary>
+            "ЗаказL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Inter_002.Посылка">
+            <summary>
+            Посылка.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.Посылка.КодПосылки">
+            <summary>
+            КодПосылки.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.Посылка.Статус">
+            <summary>
+            Статус.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.Посылка.ДатаОтправки">
+            <summary>
+            ДатаОтправки.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.Посылка.ДатаПрибытия">
+            <summary>
+            ДатаПрибытия.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.Посылка.Заказ">
+            <summary>
+            Посылка.
+            </summary>
+        </member>
+        <member name="T:IIS.Inter_002.Посылка.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.Посылка.Views.ПосылкаE">
+            <summary>
+            "ПосылкаE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.Посылка.Views.ПосылкаL">
+            <summary>
+            "ПосылкаL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Inter_002.СтрокаОтчета">
+            <summary>
+            Строка отчета.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.СтрокаОтчета.Количество">
+            <summary>
+            Количество.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.СтрокаОтчета.Cумма">
+            <summary>
+            Cумма.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.СтрокаОтчета.Товар">
+            <summary>
+            Строка отчета.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.СтрокаОтчета.Отчет">
+            <summary>
+            мастеровая ссылка на шапку IIS.Inter_002.Отчет.
+            </summary>
+        </member>
+        <member name="T:IIS.Inter_002.СтрокаОтчета.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Inter_002.СтрокаОтчета.Views.СтрокаОтчетаE">
+            <summary>
+            "СтрокаОтчетаE" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Inter_002.DetailArrayOfСтрокаОтчета">
+            <summary>
+            Detail array of СтрокаОтчета.
+            </summary>
+        </member>
+        <member name="M:IIS.Inter_002.DetailArrayOfСтрокаОтчета.#ctor(IIS.Inter_002.Отчет)">
+            <summary>
+            Construct detail array.
+            </summary>
+            <summary>
+            Returns object with type СтрокаОтчета by index.
+            </summary>
+            <summary>
+            Adds object with type СтрокаОтчета.
+            </summary>
+        </member>
+    </members>
+</doc>

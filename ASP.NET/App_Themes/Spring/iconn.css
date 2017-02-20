@@ -1,0 +1,72 @@
+a[href="/forms/Tovar/TovarL.aspx"] {
+    background-image: url(/App_Themes/Spring/Images/TreeView0.png);
+    background-repeat: no-repeat;
+    background-size: 22px;
+    padding-left: 22px;
+}
+a[href="/forms/Postavka/PostavkaL.aspx"] {
+    background-image: url(/App_Themes/Spring/Images/TreeView1.png);
+    background-repeat: no-repeat;
+    background-size: 22px;
+    padding-left: 22px;
+}
+a[href="/forms/Otchet/OtchetL.aspx"] {
+    background-image: url(/App_Themes/Spring/Images/TreeView2.png);
+    background-repeat: no-repeat;
+    background-size: 22px;
+    padding-left: 22px;
+}
+a[href="/forms/Sklad/SkladL.aspx"] {
+    background-image: url(/App_Themes/Spring/Images/TreeView3.png);
+    background-repeat: no-repeat;
+    background-size: 22px;
+    padding-left: 22px;
+}
+a[href="/forms/Klient/KlientL.aspx"] {
+    background-image: url(/App_Themes/Spring/Images/TreeView4.png);
+    background-repeat: no-repeat;
+    background-size: 22px;
+    padding-left: 22px;
+}
+a[href="/forms/Zakaz/ZakazL.aspx"] {
+    background-image: url(/App_Themes/Spring/Images/TreeView5.png);
+    background-repeat: no-repeat;
+    background-size: 22px;
+    padding-left: 22px;
+}
+a[href="/forms/Posylka/PosylkaL.aspx"] {
+    background-image: url(/App_Themes/Spring/Images/TreeView6.png);
+    background-repeat: no-repeat;
+    background-size: 22px;
+    padding-left: 22px;
+}
+a[href="/flexberry/SecurityUsersList"] {
+    background-image: url(/App_Themes/Spring/Images/a1.png);
+    background-repeat: no-repeat;
+    background-size: 22px;
+    padding-left: 22px;
+}
+a[href="/flexberry/SecurityRolesList"] {
+    background-image: url(/App_Themes/Spring/Images/a2.png);
+    background-repeat: no-repeat;
+    background-size: 22px;
+    padding-left: 22px;
+}
+a[href="/flexberry/SecurityClassesList"] {
+    background-image: url(/App_Themes/Spring/Images/a2.png);
+    background-repeat: no-repeat;
+    background-size: 22px;
+    padding-left: 22px;
+}
+a[href="/flexberry/LogList"] {
+    background-image: url(/App_Themes/Spring/Images/a2.png);
+    background-repeat: no-repeat;
+    background-size: 22px;
+    padding-left: 22px;
+}
+a[href="/flexberry/Version"] {
+    background-image: url(/App_Themes/Spring/Images/a2.png);
+    background-repeat: no-repeat;
+    background-size: 22px;
+    padding-left: 22px;
+}
